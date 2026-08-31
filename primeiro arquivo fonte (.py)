@@ -1,0 +1,10 @@
+#31/08/2026
+#Calculo de área
+#Área retangular = base x altura
+#entrada
+altura = float(input("informe o valor da altura:"))
+base = float(input("informe o valor da base:"))
+#processamento
+Área_da_parede = base*altura
+#saída
+print ("Área é de",round(Área_da_parede,2),"m2")
