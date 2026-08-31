@@ -1,0 +1,11 @@
+# Academia calculo de imc peso / (altura*altura)
+# Nome, idade, peso, altura
+#entrada
+nome = input("informe o seu nome:")
+idade = input("informe a sua idade:")
+peso = float(input("informe o seu peso:"))
+altura = float(input("informe a sua altura:"))
+#processamento
+imc = peso / (altura*altura)
+#saída
+print( "O imc do", nome,", de", idade, " anos, é igual a", round(imc,2)) 
