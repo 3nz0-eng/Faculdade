@@ -1,0 +1,17 @@
+quero_realizar = True
+while quero_realizar == True:
+    tipo = float(input("cartela= 1, liquido= 2: "))
+    #processamento
+    if tipo == 1:
+        n_cartela = float(input("quantas cartelas?: "))
+        n_capsulas = float(input("quantas capsulas tem em cada cartela?: "))
+        n_qt_dia = float(input("quantas capsulas voce vai tomar por dia?: "))
+        vai_acabar = (n_cartela * n_capsulas)/n_qt_dia
+        print("seu remédio vai acabar daqui ",vai_acabar, " dias.")
+        quero_realizar = bool(input("quer realizar o processo novamente, sim= 1, nao= 0: "))
+    if tipo == 2:
+        qt_mltotal = float(input("quantos ml tem o remédio?: "))
+        qt_ml = float(input("quantos ml por dia?: "))
+        Vai_acabar = qt_mltotal / qt_ml
+        print("seu remédio vai acabar daqui ",Vai_acabar, " dias.")
+        quero_realizar = bool(input("quer realizar o processo novamente, sim= 1, nao= 0: "))
